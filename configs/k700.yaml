@@ -1,0 +1,8 @@
+inherit: configs/default.yaml
+model:
+  num_classes: 700
+data:
+  dataset: K700
+  root: /data/kinetics700
+  train_list: train.csv
+  val_list: val.csv

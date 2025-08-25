@@ -1,0 +1,1 @@
+from .hitagu_net import HiTAGUNet

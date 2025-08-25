@@ -1,0 +1,8 @@
+inherit: configs/default.yaml
+model:
+  num_classes: 174
+data:
+  dataset: SSv2
+  root: /data/ssv2
+  train_list: train.csv
+  val_list: val.csv
